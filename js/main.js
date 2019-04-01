@@ -18,27 +18,27 @@ $(function () {
   }
   resizeBackground();
   
-  //Parallax
-  $(function(){
-    $('body').stellar({
-      responsive: true,
-      positionProperty: 'position',
-      horizontalScrolling: false
-    });
-  });
+  // //Parallax
+  // $(function(){
+  //   $('body').stellar({
+  //     responsive: true,
+  //     positionProperty: 'position',
+  //     horizontalScrolling: false
+  //   });
+  // });
   
-  //Type js
-  var element = $(".element");
-  $(function() {
-    element.typed({
-      strings: ["Full Stack Web Developer"],
-      typeSpeed: 100,
-      loop: true,
-    });
-  });
+  // //Type js
+  // var element = $(".element");
+  // $(function() {
+  //   element.typed({
+  //     strings: ["Full Stack Web Developer"],
+  //     typeSpeed: 100,
+  //     loop: true,
+  //   });
+  // });
   
-  //Wow js
-  new WOW().init(); 
+  // //Wow js
+  // new WOW().init(); 
   
   //Active Scroll
   $(document).on("scroll", onScroll);
@@ -134,27 +134,7 @@ $(function () {
   $(".send-btn").on("click touchstart", function () {
     $("#form").css("color", "#ac4b49");
   });
-  
-  //Google Map
-  var myCenter = new google.maps.LatLng(38.967524,-95.235927);
-  function initialize() {
-    var mapProp = {
-      center:myCenter,
-      zoom:13,
-      scrollwheel:false,
-      draggable:true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP
-    };
-    var map = new google.maps.Map(document.getElementById("map"),mapProp);
-    var marker = new google.maps.Marker({
-      position:myCenter,
-      icon: 'images/star-icon.png',
-    });
-    marker.setMap(map);
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-  google.maps.event.addDomListener(window, 'load', initialize);
-  
+
   //Scroll-to-up
   $('#scroll-up').hide();
   $window.on("scroll", function () {

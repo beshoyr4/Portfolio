@@ -38,70 +38,6 @@ html, body {
     font-size: 15px;
     color: #666;
   }
-/*   
-  /*-------------------------------------------------------*/
-    /* Preloader */
-  /*-------------------------------------------------------*/
-  /* .preloader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: #fff;
-    z-index: 9999999;
-  }
-  .preloader .spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -20px;
-    margin-top: -20px;
-  }
-  .spinner {
-    margin: 100px auto;
-    width: 50px;
-    height: 40px;
-    text-align: center;
-    font-size: 10px;
-  }
-  .spinner > div {
-    background-color: #ff6a6a;
-    height: 100%;
-    width: 6px;
-    display: inline-block;
-    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
-    animation: sk-stretchdelay 1.2s infinite ease-in-out;
-  }
-  .spinner .rect2 {
-    -webkit-animation-delay: -1.1s;
-    animation-delay: -1.1s;
-  }
-  .spinner .rect3 {
-    -webkit-animation-delay: -1.0s;
-    animation-delay: -1.0s;
-  }
-  .spinner .rect4 {
-    -webkit-animation-delay: -0.9s;
-    animation-delay: -0.9s;
-  }
-  .spinner .rect5 {
-    -webkit-animation-delay: -0.8s;
-    animation-delay: -0.8s;
-  }
-  @-webkit-keyframes sk-stretchdelay {
-    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
-    20% { -webkit-transform: scaleY(1.0) }
-  }
-  @keyframes sk-stretchdelay {
-    0%, 40%, 100% { 
-      transform: scaleY(0.4);
-      -webkit-transform: scaleY(0.4);
-    }  20% { 
-      transform: scaleY(1.0);
-      -webkit-transform: scaleY(1.0);
-    }
-  } */ */
   
   /*-------------------------------------------------------*/
     /* NavBar */
@@ -162,6 +98,7 @@ html, body {
     position: relative;
     background: url(../images/background.jpg) no-repeat center center;
     height: 100%;
+    width: 100%;
     background-size: cover;
     z-index: 1;
   }
@@ -171,6 +108,52 @@ html, body {
     text-align: center;
     color: #fff;
     top: 35%;
+    padding-bottom: 25%;
+  }
+  .btncontact {
+    position: absolute;
+    width: 15%;
+    left: 15%;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    border-radius: 9px;
+    top: 50%;
+    background-color: #3a6168;
+  }
+  .btnabout {
+    position: absolute;
+    left: 40%;
+    width: 15%;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    border-radius: 9px;
+    top: 50%;
+    background-color: #3a6168;
+  }
+  .btnportfolio {
+    position: absolute;
+    width: 15%;
+    left: 66%;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    border-radius: 9px;
+    top: 50%;
+    background-color: #3a6168;
   }
   .typed-cursor, .element {
     display: inline-block;
@@ -257,89 +240,7 @@ html, body {
   }
   
   /*-------------------------------------------------------*/
-    /* Services */
-  /*-------------------------------------------------------*/
-  #service {
-    background-color: #f5f5f5;
-  }
-  #service .back img {
-    height: 45px;
-    margin: auto;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-  #service .subtitle {
-    margin: 15px 0px 10px 0px;
-  }
-  #service p {
-    font-size: 16px;
-  }
-  #service .back {
-    position: relative;
-    background-color: #fff;
-    padding: 30px 15px;
-    border-radius: 3px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  .space {
-    padding-bottom: 60px;
-  }
-  #service .back:hover {
-    cursor: pointer;
-  }
-  #service .back:hover img {
-    transform: scale(1.2);
-  }
-  #skill {
-    background-color: #fff;
-  }
-  #skill img {
-    width: 450px;
-    margin: auto;
-    margin-bottom: 60px;
-    box-shadow: 0 0 20px #ddd;
-    -webkit-box-shadow: 0 0 20px #ddd;
-    -moz-box-shadow: 0 0 20px #ddd;
-  }
-  .skill-bar {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 8px;
-    background-color: #111;
-    border-radius: 5px;
-  }
-  .skill-bar-overlay {
-    height: 8px;
-    background-color: #ff6a6a;
-    width: 20%;
-  }
-  .single-skill {
-    position: relative;
-    margin-bottom: 40px;
-  }
-  .single-skill p {
-    font-size: 16px;
-    color: #322C2C;
-    font-weight: 500;
-  }
-  .single-skill span {
-    position: absolute;
-    top: 0;
-    left: 20%;
-    font-size: 16px;
-    color: #322C2C;
-    font-weight: 500;
-    opacity: 0;
-  }
-  .single-skill span.show {
-    text-align: right;
-    opacity: 1;
-  }
-  
-  /*-------------------------------------------------------*/
-    /* Quote */
+    /* contact */
   /*-------------------------------------------------------*/
   #quote {
     background: url(../images/background-1.jpg) no-repeat;
@@ -542,7 +443,7 @@ html, body {
     position: relative;
   }
   .facebook-text, .twitter-text, .linkedin-text, .instagram-text, .youtube-text, .pinterest-text {
-    visibility: hidden;
+    visibility: show;
     background-color: #fff;
     color: #000;
     font-size: 11px;
