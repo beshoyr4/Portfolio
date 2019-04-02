@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID:-//Communitect Inc//Smile Reminder 3.0 MIMEDIR//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20190402T212726Z
+DTSTART:20190403T193000Z
+DTEND:20190403T193000Z
+SUMMARY:Appointment at Fairway Eye Center - Raytown
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE:MAILTO:beshoyr4@gmail.com
+LOCATION:Fairway Eye Center - Raytown
+DESCRIPTION:Your appointment is:\nApril 3\, 2019\n2:30PM\n\nFairway Eye C
+ enter - Raytown\nWith Sarah Scoggin\, OD\n10215 E Missouri 350 Ste E\nRa
+ ytown\, MO 64138\n816-313-5060\nhttp://www.FairwayEyeCenter.com\n\nMap i
+ t with Google\nhttp://local.google.com/maps?q=10215+E+Missouri+350+Ste+E
+ +Raytown%2C+MO+64138\n\nPlease note: Selecting "Decline" in your calenda
+ r for this appointment WILL NOT cancel your appointment with your provid
+ er. Please contact the office directly.
+SEQUENCE:1
+ORGANIZER;CN=Fairway Eye Center - Raytown:MAILTO:fairway_eye_center_rayto
+ wn.sr@remindmemd.com
+TRANSP:OPAQUE
+PRIORITY:1
+CLASS:PRIVATE
+UID:1717358344
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT1H
+ACTION:DISPLAY
+ACTION:AUDIO
+DESCRIPTION:Appointment at Fairway Eye Center - Raytown
+END:VALARM
+END:VEVENT
+END:VCALENDAR
