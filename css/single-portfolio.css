@@ -1,22 +1,23 @@
 /*-------------------------------------------------------*/
-  /* General */
+/* General */
 /*-------------------------------------------------------*/
 #main-portfolio {
-	margin-top: 60px;
-	padding-bottom: 60px;
+  margin-top: 60px;
+  padding-bottom: 60px;
 }
 #main-portfolio img {
-	margin: auto;
+  margin: auto;
+  width: 100%;
 }
 #main-portfolio h2 {
-	text-align: center;
+  text-align: center;
 }
 #main-portfolio .separator {
-	height: 1px;
-	background-color: #bbb;
-	margin: 40px 0px;
+  height: 1px;
+  background-color: #bbb;
+  margin: 40px 0px;
 }
 #main-portfolio .fa-check,
 #main-portfolio a {
-	color: #0099e6;
+  color: #0099e6;
 }
