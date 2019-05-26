@@ -93,10 +93,8 @@ p {
 #home {
   position: relative;
   background: url(../images/background.jpg) no-repeat center center;
-  height: 100%;
+  height: 70%;
   width: 100%;
-  background-size: cover;
-  z-index: 1;
 }
 #home .text {
   position: absolute;
